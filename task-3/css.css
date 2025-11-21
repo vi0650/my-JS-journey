@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: monarch;
+  src: url(./AnotherGames.ttf);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  color: rgb(103, 127, 215);
+  font-family: monarch;
+  width: 100%;
+  height: 100%;
+  background-image: url(./jinwoo\ 5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nav {
+  padding: 40px;
+  justify-content: space-around;
+  display: flex;
+}
+#nav a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(103, 127, 215);
+}
+
+#main > h1 {
+  font-size: 200px;
+  font-weight: 10;
+  text-align: center;
+  padding-top: 40px;
+  font-family: monarch;
+  letter-spacing: 3px;
+}
+#botamleft {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  width: 15%;
+  font-weight: 100;
+  color: rgb(28, 202, 255);
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+hr {
+  margin: 20px;
+  background-color: rgb(28, 202, 255);
+}
+#botamleft > h4 {
+  font-size: large;
+}
+#botambar {
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 70px;
+}
+#botambar > h1 {
+  font-size: 30px;
+}
+#botambar a {
+  text-decoration: none;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(103, 127, 215);
+  z-index: 1;
+}
+#main>img{
+  height: auto;
+  position: absolute;
+}
+
+#first {
+  width: 200px;
+  top: 75%;
+  left: 70%;
+}
+#second {
+  width: 350px;
+  top: 25%;
+  left: 75%;
+}
+#third {
+  width: 200px;
+  top:44%;
+  left: 19%;
+}
