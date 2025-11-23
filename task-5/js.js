@@ -1,7 +1,12 @@
-var a = undefined;
+// variable hoisting me variable do hisso mei toot jata hai or 
+// let ke sath work nahi karti because its use TDZ (temporal dead )
+var a; // declaration
+
+// this is TDZ. variable not assignable out of this area
+
 console.log(a);
 
-a=12;
+a=12; // initialization
 
 console.log(typeof "hello");
 console.log(typeof NaN);
