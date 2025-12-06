@@ -95,3 +95,4 @@ let p;
 prompt(p);
 let b = p >= 18 ? "not eligible for vote" : "eligible for vote";
 console.log(b);
+
